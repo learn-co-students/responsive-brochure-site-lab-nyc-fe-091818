@@ -1,0 +1,46 @@
+html {
+  background-image: url(https://i.pinimg.com/originals/00/57/52/005752bfd94fbee98cc42dbacc8e29f5.jpg);
+  color: white;
+}
+
+ body,html {
+width: 100vw;
+}
+
+.container {
+text-align: center;
+background-color: #26734d;
+opacity: 0.7;
+margin: 15px 50px;
+}
+
+
+.grid-container {
+  display:grid;
+grid-template-columns:1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+}
+
+img {
+  width: 80%;
+  height: 50%;
+}
+
+.grid-item {
+  width:100%;
+}
+
+
+/* tablet */
+@media all and (max-width: 1000px) {
+  .container2{
+  max-width:80%;
+  }
+}
+
+/* phone */
+@media all and (max-width:500px) {
+  .container3 {
+ 
+  }
+}
